@@ -1,0 +1,1628 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "contacts",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "contact",
+    "Name": "Contatos",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "_parentcustomerid_value": "Nome da Empresa",
+      "{Attachments}": "Attachments",
+      "account_primary_contact": "Contas",
+      "accountrolecode": "Função",
+      "address1_addresstypecode": "Endereço 1: Tipo de Endereço",
+      "address1_city": "Endereço 1: Cidade",
+      "address1_composite": "Endereço 1",
+      "address1_country": "Endereço 1: País/Região",
+      "address1_county": "Endereço 1: Município",
+      "address1_fax": "Endereço 1: Fax",
+      "address1_freighttermscode": "Endereço 1: Condições de Frete",
+      "address1_latitude": "Endereço 1: Latitude",
+      "address1_line1": "Endereço 1: Rua 1",
+      "address1_line2": "Endereço 1: Rua 2",
+      "address1_line3": "Endereço 1: Rua 3",
+      "address1_longitude": "Endereço 1: Longitude",
+      "address1_name": "Endereço 1: Nome",
+      "address1_postalcode": "Endereço 1: CEP",
+      "address1_postofficebox": "Endereço 1: Caixa Postal",
+      "address1_primarycontactname": "Endereço 1: Nome do Contato Primário",
+      "address1_shippingmethodcode": "Endereço 1: Método de Entrega",
+      "address1_stateorprovince": "Endereço 1: Estado",
+      "address1_telephone1": "Endereço 1: Telefone",
+      "address1_telephone2": "Endereço 1: Telefone 2",
+      "address1_telephone3": "Endereço 1: Telefone 3",
+      "address1_upszone": "Endereço 1: Zona UPS",
+      "address1_utcoffset": "Endereço 1: Compensação UTC",
+      "address2_addresstypecode": "Endereço 2: Tipo de Endereço",
+      "address2_city": "Endereço 2: Cidade",
+      "address2_composite": "Endereço 2",
+      "address2_country": "Endereço 2: País/Região",
+      "address2_county": "Endereço 2: Município",
+      "address2_fax": "Endereço 2: Fax",
+      "address2_freighttermscode": "Endereço 2: Condições de Frete",
+      "address2_latitude": "Endereço 2: Latitude",
+      "address2_line1": "Endereço 2: Rua 1",
+      "address2_line2": "Endereço 2: Rua 2",
+      "address2_line3": "Endereço 2: Rua 3",
+      "address2_longitude": "Endereço 2: Longitude",
+      "address2_name": "Endereço 2: Nome",
+      "address2_postalcode": "Endereço 2: CEP",
+      "address2_postofficebox": "Endereço 2: Caixa Postal",
+      "address2_primarycontactname": "Endereço 2: Nome do Contato Primário",
+      "address2_shippingmethodcode": "Endereço 2: Método de Entrega",
+      "address2_stateorprovince": "Endereço 2: Estado",
+      "address2_telephone1": "Endereço 2: Telefone 1",
+      "address2_telephone2": "Endereço 2: Telefone 2",
+      "address2_telephone3": "Endereço 2: Telefone 3",
+      "address2_upszone": "Endereço 2: Zona UPS",
+      "address2_utcoffset": "Endereço 2: Compensação UTC",
+      "address3_addresstypecode": "Endereço 3: Tipo de Endereço",
+      "address3_city": "Endereço 3: Cidade",
+      "address3_composite": "Endereço 3",
+      "address3_country": "Endereço3: País/Região",
+      "address3_county": "Endereço 3: Município",
+      "address3_fax": "Endereço 3: Fax",
+      "address3_freighttermscode": "Endereço 3: Condições de Frete",
+      "address3_latitude": "Endereço 3: Latitude",
+      "address3_line1": "Endereço3: Rua 1",
+      "address3_line2": "Endereço3: Rua 2",
+      "address3_line3": "Endereço3: Rua 3",
+      "address3_longitude": "Endereço 3: Longitude",
+      "address3_name": "Endereço 3: Nome",
+      "address3_postalcode": "Endereço3: CEP",
+      "address3_postofficebox": "Endereço 3: Caixa Postal",
+      "address3_primarycontactname": "Endereço 3: Nome do Contato Primário",
+      "address3_shippingmethodcode": "Endereço 3: Método de Entrega",
+      "address3_stateorprovince": "Endereço3: Estado/Província",
+      "address3_telephone1": "Endereço 3: Telefone1",
+      "address3_telephone2": "Endereço 3: Telefone2",
+      "address3_telephone3": "Endereço 3: Telefone3",
+      "address3_upszone": "Endereço 3: Zona UPS",
+      "address3_utcoffset": "Endereço 3: Compensação UTC",
+      "adx_changedcontact_webpagehistory": "Histórico de Páginas da Web",
+      "adx_communityforumthread_contact": "Threads do Fórum",
+      "adx_confirmremovepassword": "Confirmar Remoção da Senha",
+      "adx_contact_adx_casedeflection_Contact": "Desvios de Ocorrências",
+      "adx_contact_communityforumalert": "Alertas do Fórum",
+      "adx_contact_communityforumannouncement": "Comunicados do Fórum",
+      "adx_contact_communityforumpost": "Postagens do Fórum",
+      "adx_contact_externalidentity": "Identidades Externas",
+      "adx_contact_forumnotification": "Notificações do Fórum",
+      "adx_contact_pagenotification": "Notificações de Página",
+      "adx_contact_pollsubmission": "Envios de votação",
+      "adx_contact_webfilelog": "Logs de Arquivo da Web",
+      "adx_contact_webpage": "Páginas da Web",
+      "adx_contact_webpagelog": "Logs de Páginas da Web",
+      "adx_ContactContentAccessLevel": "Níveis de Acesso ao Conteúdo",
+      "adx_contactproduct": "Produtos",
+      "adx_createdbyipaddress": "Criado(a) por Endereço IP",
+      "adx_createdbyusername": "Criado(a) por Nome de usuário",
+      "adx_forum_activityalert": "Fóruns",
+      "adx_identity_accessfailedcount": "Contagem de Falhas de Acesso",
+      "adx_identity_emailaddress1confirmed": "Email Confirmado",
+      "adx_identity_lastsuccessfullogin": "Último Logon com Êxito",
+      "adx_identity_locallogindisabled": "Logon Local Desabilitado",
+      "adx_identity_lockoutenabled": "Bloqueio Habilitado",
+      "adx_identity_lockoutenddate": "Data de Término do Bloqueio",
+      "adx_identity_logonenabled": "Login Habilitado",
+      "adx_identity_mobilephoneconfirmed": "Número de Celular Confirmado",
+      "adx_identity_newpassword": "Nova Entrada de Senha",
+      "adx_identity_passwordhash": "Hash de Senha",
+      "adx_identity_securitystamp": "Selo de Segurança",
+      "adx_identity_twofactorenabled": "Dois Fatores Habilitado",
+      "adx_identity_username": "Nome do Usuário",
+      "adx_invitation_invitecontact": "Convites (adx_invitation_invitecontact)",
+      "adx_invitation_invitecontacts": "Convites (adx_invitation_invitecontacts)",
+      "adx_invitation_invitercontact": "Convites (adx_invitation_invitercontact)",
+      "adx_invitation_redeemedContact": "Convites (adx_invitation_redeemedContact)",
+      "adx_invitation_redeemedcontacts": "Convites (adx_invitation_redeemedcontacts)",
+      "adx_modifiedbyipaddress": "Modificado(a) por Endereço IP",
+      "adx_modifiedbyusername": "Modificado(a) por Nome de usuário",
+      "adx_organizationname": "Nome da Organização",
+      "adx_preferredlanguageid": "Idioma Preferido",
+      "adx_profilealert": "Alerta de Perfil",
+      "adx_profilealertdate": "Data de Alerta de Perfil",
+      "adx_profilealertinstructions": "Instruções de Alerta de Perfil",
+      "adx_profileisanonymous": "Perfil É Anônimo",
+      "adx_profilelastactivity": "Última Atividade do Perfil",
+      "adx_profilemodifiedon": "Perfil Modificado em",
+      "adx_publicprofilecopy": "Cópia do Perfil Público",
+      "adx_subscribercontact_pagealert": "Alertas de Página",
+      "adx_timezone": "Fuso Horário",
+      "adx_webformsession_contact": "Sessões de Formulário Avançado",
+      "adx_webrole_contact": "Funções da Web",
+      "aging30": "Vencimento em 30 dias",
+      "aging30_base": "Vencimento em 30 dias (Base)",
+      "aging60": "Vencimento em 60 dias",
+      "aging60_base": "Vencimento em 60 dias (Base)",
+      "aging90": "Vencimento em 90 dias",
+      "aging90_base": "Vencimento em 90 dias (Base)",
+      "anniversary": "Datas Especiais",
+      "annualincome": "Receita Anual",
+      "annualincome_base": "Receita Anual (Base)",
+      "assistantname": "Assistente",
+      "assistantphone": "Telefone do Assistente",
+      "birthdate": "Aniversário",
+      "bpf_contact_adx_bpf_c2857b638fa7473d8e2f112c232cebd8": "Alterar Senha do Contato dos Portais",
+      "BulkOperation_Logs_Contacts": "Campanhas Rápidas (BulkOperation_Logs_Contacts)",
+      "business2": "Telefone Comercial 2",
+      "businesscard": "Cartão de Visita",
+      "businesscardattributes": "BusinessCardAttributes",
+      "callback": "Número para Retorno de Chamada",
+      "CampaignActivity_Logs_Contacts": "Atividades da Campanha",
+      "childrensnames": "Nomes dos Filhos",
+      "company": "Telefone da Empresa",
+      "contact_actioncard": "Cartões de Ação",
+      "Contact_ActivityPointers": "Atividades",
+      "contact_adx_alertsubscriptions": "Inscrições de Alerta",
+      "contact_adx_inviteredemptions": "Resgates de Convite",
+      "contact_adx_portalcomments": "Comentários do Portal",
+      "Contact_Annotation": "Anotações",
+      "Contact_Appointments": "Compromissos",
+      "contact_as_primary_contact": "Ocorrências (contact_as_primary_contact)",
+      "contact_as_responsible_contact": "Ocorrências (contact_as_responsible_contact)",
+      "Contact_AsyncOperations": "Trabalhos do Sistema",
+      "contact_bookableresource_ContactId": "Recursos Reserváveis",
+      "Contact_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "contact_BulkOperations": "Campanhas Rápidas (contact_BulkOperations)",
+      "contact_CampaignResponses": "Respostas de Campanha",
+      "contact_connections1": "Conexões (contact_connections1)",
+      "contact_connections2": "Conexões (contact_connections2)",
+      "contact_customer_contacts": "Contatos (contact_customer_contacts)",
+      "Contact_CustomerAddress": "Endereços",
+      "Contact_DuplicateBaseRecord": "Registros Duplicados (Contact_DuplicateBaseRecord)",
+      "Contact_DuplicateMatchingRecord": "Registros Duplicados (Contact_DuplicateMatchingRecord)",
+      "Contact_Email_EmailSender": "Mensagens de Email (Contact_Email_EmailSender)",
+      "Contact_Emails": "Mensagens de Email (Contact_Emails)",
+      "contact_entitlement_ContactId": "Direitos (contact_entitlement_ContactId)",
+      "contact_entitlement_Customer": "Direitos (contact_entitlement_Customer)",
+      "Contact_Faxes": "Fax (Contact_Faxes)",
+      "Contact_Feedback": "Comentários (Contact_Feedback)",
+      "Contact_Letters": "Cartas",
+      "contact_li_inmails": "inMails",
+      "contact_li_messages": "Mensagens",
+      "contact_li_pointdrivepresentationvieweds": "Registros Visualizados de Conteúdo de Links Inteligentes",
+      "Contact_MailboxTrackingFolder": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "contact_master_contact": "Contatos (contact_master_contact)",
+      "contact_msdyn_approvals": "Aprovações do Project Service",
+      "contact_msdyn_bookingalerts": "Alertas de Reserva",
+      "contact_msdyn_ocliveworkitems": "Conversas (contact_msdyn_ocliveworkitems)",
+      "contact_msdyn_ocoutboundmessages": "Mensagens de saída",
+      "contact_msdyn_ocsessions": "Sessões",
+      "contact_msfp_alerts": "Alerta do Customer Voice",
+      "contact_msfp_surveyinvites": "Convites de Pesquisa do Customer Voice",
+      "contact_msfp_surveyresponses": "Respostas de Pesquisa do Customer Voice",
+      "contact_parent_contact": "Contatos (contact_parent_contact)",
+      "Contact_Phonecalls": "Telefonemas",
+      "contact_PostFollows": "Segue",
+      "contact_PostRegardings": "Postar Referente a",
+      "contact_Posts": "Postagens",
+      "contact_principalobjectattributeaccess": "Compartilhamento de Campo",
+      "Contact_ProcessSessions": "Sessões de Processo",
+      "Contact_RecurringAppointmentMasters": "Compromissos Recorrentes",
+      "Contact_ServiceAppointments": "Atividades do Serviço",
+      "Contact_SocialActivities": "Atividades Sociais (Contact_SocialActivities)",
+      "Contact_SyncErrors": "Erros de Sincronização",
+      "Contact_Tasks": "Tarefas",
+      "contactid": "Contato (contactid)",
+      "contactinvoices_association": "Faturas (contactinvoices_association)",
+      "contactleads_association": "Clientes Potenciais (contactleads_association)",
+      "contactorders_association": "Ordens (contactorders_association)",
+      "contactquotes_association": "Cotações (contactquotes_association)",
+      "contract_billingcustomer_contacts": "Contratos (contract_billingcustomer_contacts)",
+      "contract_customer_contacts": "Contratos (contract_customer_contacts)",
+      "contractlineitem_customer_contacts": "Linhas do Contrato",
+      "createdby": "Criada por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "creditlimit": "Limite de Crédito",
+      "creditlimit_base": "Limite de Crédito (Base)",
+      "creditonhold": "Suspensão de Crédito",
+      "customersizecode": "Tamanho do Cliente",
+      "customertypecode": "Tipo de Relação",
+      "defaultpricelevelid": "Lista de Preços",
+      "department": "Departamento",
+      "description": "Descrição",
+      "donotbulkemail": "Não permitir Emails em Massa",
+      "donotbulkpostalmail": "Não permitir Correspondência em Massa",
+      "donotemail": "Não permitir Emails",
+      "donotfax": "Não permitir Faxes",
+      "donotphone": "Não permitir Telefonemas",
+      "donotpostalmail": "Não permitir Correspondência",
+      "donotsendmm": "Enviar Materiais de Marketing",
+      "educationcode": "Educação",
+      "emailaddress1": "Email",
+      "emailaddress2": "Endereço de Email 2",
+      "emailaddress3": "Endereço de Email 3",
+      "employeeid": "Funcionário",
+      "entitlementcontacts_association": "Direitos (entitlementcontacts_association)",
+      "entityimage": "Imagem da Entidade",
+      "entityimageid": "ID da Imagem da Entidade",
+      "exchangerate": "Taxa de Câmbio",
+      "externaluseridentifier": "Identificador de Usuário Externo",
+      "familystatuscode": "Estado Civil",
+      "fax": "Fax (fax)",
+      "firstname": "Nome",
+      "followemail": "Acompanhar Atividade de Email",
+      "ftpsiteurl": "Site FTP",
+      "fullname": "Nome Completo",
+      "gendercode": "Sexo",
+      "governmentid": "Governo",
+      "haschildrencode": "Tem Filhos",
+      "home2": "Telefone Residencial 2",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "incident_customer_contacts": "Ocorrências (incident_customer_contacts)",
+      "invoice_customer_contacts": "Faturas (invoice_customer_contacts)",
+      "isbackofficecustomer": "Cliente de Back-Office",
+      "jobtitle": "Cargo",
+      "lastname": "Sobrenome",
+      "lastonholdtime": "Última Suspensão",
+      "lastusedincampaign": "Data da Última Inclusão na Campanha",
+      "lead_customer_contacts": "Clientes Potenciais (lead_customer_contacts)",
+      "lead_parent_contact": "Clientes Potenciais (lead_parent_contact)",
+      "leadsourcecode": "Origem do Cliente Potencial",
+      "listcontact_association": "Listas de Marketing",
+      "lk_contact_feedback_createdby": "Comentários (lk_contact_feedback_createdby)",
+      "lk_contact_feedback_createdonbehalfby": "Comentários (lk_contact_feedback_createdonbehalfby)",
+      "managername": "Gerente",
+      "managerphone": "Telefone do Gerente",
+      "marketingonly": "Somente Marketing",
+      "masterid": "ID Mestra",
+      "merged": "Mesclado",
+      "middlename": "Segundo Nome",
+      "mobilephone": "Telefone Celular",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "msa_contact_incident": "Ocorrências (msa_contact_incident)",
+      "msa_contact_opportunity": "Oportunidades (msa_contact_opportunity)",
+      "msa_managingpartnerid": "Gerenciando Parceiros",
+      "msdyn_contact_msdyn_actual_ContactCustomer": "Dados Reais (msdyn_contact_msdyn_actual_ContactCustomer)",
+      "msdyn_contact_msdyn_actual_ContactVendor": "Dados Reais (msdyn_contact_msdyn_actual_ContactVendor)",
+      "msdyn_contact_msdyn_contactkpiitem_contactid": "Itens de KPI de Contatos",
+      "msdyn_contact_msdyn_contactpricelist_Contact": "Listas de Preços do Contato",
+      "msdyn_contact_msdyn_estimateline_ContactCustomer": "Linhas de Estimativa (msdyn_contact_msdyn_estimateline_ContactCustomer)",
+      "msdyn_contact_msdyn_estimateline_ContactVendor": "Linhas de Estimativa (msdyn_contact_msdyn_estimateline_ContactVendor)",
+      "msdyn_contact_msdyn_fact_ContactCustomer": "Fatos (msdyn_contact_msdyn_fact_ContactCustomer)",
+      "msdyn_contact_msdyn_fact_ContactVendor": "Fatos (msdyn_contact_msdyn_fact_ContactVendor)",
+      "msdyn_contact_msdyn_invoicelinetransaction_ContactCustomer": "Detalhes da Linha da Fatura (msdyn_contact_msdyn_invoicelinetransaction_ContactCustomer)",
+      "msdyn_contact_msdyn_invoicelinetransaction_ContactVendor": "Detalhes da Linha da Fatura (msdyn_contact_msdyn_invoicelinetransaction_ContactVendor)",
+      "msdyn_contact_msdyn_journalline_ContactCustomer": "Linhas do Diário (msdyn_contact_msdyn_journalline_ContactCustomer)",
+      "msdyn_contact_msdyn_journalline_ContactVendor": "Linhas do Diário (msdyn_contact_msdyn_journalline_ContactVendor)",
+      "msdyn_contact_msdyn_liveconversation_Customer": "Conversas em andamento (Preterido)",
+      "msdyn_contact_msdyn_mostcontacted_regardingObjectId": "Mais Contatado",
+      "msdyn_contact_msdyn_mostcontactedby_regardingObjectId": "Mais Contatado por",
+      "msdyn_contact_msdyn_ocliveworkitem_Customer": "Conversas (msdyn_contact_msdyn_ocliveworkitem_Customer)",
+      "msdyn_contact_msdyn_opportunitylinetransaction_ContactCustomer": "Detalhes da Linha de Oportunidade (msdyn_contact_msdyn_opportunitylinetransaction_ContactCustomer)",
+      "msdyn_contact_msdyn_opportunitylinetransaction_ContactVendor": "Detalhes da Linha de Oportunidade (msdyn_contact_msdyn_opportunitylinetransaction_ContactVendor)",
+      "msdyn_contact_msdyn_orderlinetransaction_ContactCustomer": "Detalhes da Linha de Contrato do Projeto (msdyn_contact_msdyn_orderlinetransaction_ContactCustomer)",
+      "msdyn_contact_msdyn_orderlinetransaction_ContactVendor": "Detalhes da Linha de Contrato do Projeto (msdyn_contact_msdyn_orderlinetransaction_ContactVendor)",
+      "msdyn_contact_msdyn_quotelinetransaction_ContactCustomer": "Detalhe da Linha de Cotação (msdyn_contact_msdyn_quotelinetransaction_ContactCustomer)",
+      "msdyn_contact_msdyn_quotelinetransaction_ContactVendor": "Detalhe da Linha de Cotação (msdyn_contact_msdyn_quotelinetransaction_ContactVendor)",
+      "msdyn_contact_msdyn_rma_RequestedByContact": "ADMs",
+      "msdyn_contact_msdyn_rtv_VendorContact": "RTVs",
+      "msdyn_contact_msdyn_salespremiumdemo_contact": "Sales Premium Demos",
+      "msdyn_contact_msdyn_workorder_ReportedByContact": "Ordens de Serviço",
+      "msdyn_contactkpiid": "KPI",
+      "msdyn_disablewebtracking": "Desabilitar Rastreamento Web",
+      "msdyn_gdproptout": "Recusa do RGPD",
+      "msdyn_isminor": "É Menor",
+      "msdyn_isminorwithparentalconsent": "É Menor com Consentimento dos Pais",
+      "msdyn_orgchangestatus": "Sinalizador Fora da Empresa",
+      "msdyn_playbookinstance_contact": "Guias Estratégicos",
+      "msdyn_portaltermsagreementdate": "Data do Contrato de Termos do Portal",
+      "msdyn_sequencetarget_contact_msdyn_target": "Destinos de Sequência",
+      "msdyncrm_contact_marketingformsubmission_matched": "Envios de formulário do Marketing (msdyncrm_contact_marketingformsubmission_matched)",
+      "msdyncrm_contact_marketingformsubmission_original": "Envios de formulário do Marketing (msdyncrm_contact_marketingformsubmission_original)",
+      "msdyncrm_contact_msdyncrm_customerjourneycustomchannelactivity_Contact": "Atividades de canal personalizadas",
+      "msdyncrm_contact_msdyncrm_defaultmarketingsetting_DefaultTestContact": "Configurações padrão",
+      "msdyncrm_contact_msdyncrm_geopin": "Marcadores geográficos",
+      "msdyncrm_contact_msdyncrm_linkedinformsubmission_contact": "Envios de LinkedIn Lead Gen Form",
+      "msdyncrm_contact_msdyncrm_marketingemailtestsend_testcontactid": "Envio de teste de emails de marketing",
+      "msdyncrm_ContactId": "Contato do SendNow",
+      "msdyncrm_customerjourneyid": "Jornada de cliente de origem",
+      "msdyncrm_emailid": "Email de origem",
+      "msdyncrm_insights_placeholder": "Insights",
+      "msdyncrm_marketingformid": "Formulário de origem",
+      "msdyncrm_marketingformsubmissiondateprecise": "carimbo de data/hora do envio de formulário",
+      "msdyncrm_marketingpageid": "Página de aterrissagem de origem",
+      "msdyncrm_rememberme": "Lembrar de mim",
+      "msdyncrm_SegmentMemberId": "Membro do Segmento",
+      "msevtmgt_aadobjectid": "ID do Objeto do AAD",
+      "msevtmgt_contact_eventregistration_registeredby": "Registros de Evento (msevtmgt_contact_eventregistration_registeredby)",
+      "msevtmgt_contact_msevtmgt_attendeepass_contact": "Passes do Participante",
+      "msevtmgt_contact_msevtmgt_building_PrimaryContact": "Edifícios",
+      "msevtmgt_contact_msevtmgt_checkin_Contact": "Check-ins",
+      "msevtmgt_contact_msevtmgt_eventpurchase": "Compras de Evento",
+      "msevtmgt_contact_msevtmgt_eventpurchaseattendee": "Participantes de Compra de Evento",
+      "msevtmgt_contact_msevtmgt_eventregistration_Contact": "Registros de Evento (msevtmgt_contact_msevtmgt_eventregistration_Contact)",
+      "msevtmgt_contact_msevtmgt_eventteammember_Contact": "Membros da Equipe do Evento",
+      "msevtmgt_contact_msevtmgt_hotel_PrimaryContact": "Hotéis",
+      "msevtmgt_contact_msevtmgt_hotelroomallocation_PrimaryContact": "Alocações de Salas de Hotel",
+      "msevtmgt_contact_msevtmgt_room_PrimaryContact": "Salas",
+      "msevtmgt_contact_msevtmgt_sessionregistration_contactid": "Registros de Sessão",
+      "msevtmgt_contact_msevtmgt_speaker_Contact": "Palestrantes",
+      "msevtmgt_contact_msevtmgt_venue_PrimaryContact": "Locais",
+      "msevtmgt_contact_waitlistitem": "Itens da Lista de Espera (msevtmgt_contact_waitlistitem)",
+      "msevtmgt_contact_waitlistitem_addedby": "Itens da Lista de Espera (msevtmgt_contact_waitlistitem_addedby)",
+      "msevtmgt_ContactId": "Contato (msevtmgt_ContactId)",
+      "msevtmgt_originatingeventid": "Evento originador",
+      "msgdpr_consentchangesourceformId": "consent change source form Id",
+      "msgdpr_contact_msgdpr_gdprconsentchangerecord": "Registros de alteração de consentimento do RGPD",
+      "msgdpr_contact_msgdpr_gdprparent": "Contatos (msgdpr_contact_msgdpr_gdprparent)",
+      "msgdpr_donottrack": "Não rastrear",
+      "msgdpr_gdprconsent": "Consentimento dado",
+      "msgdpr_gdprischild": "O RGPD é secundário",
+      "msgdpr_GDPRParentId": "Pai ou guardião",
+      "nickname": "Apelido",
+      "nl_codigo_pessoa": "CODIGO_PESSOA",
+      "nl_codigo_tipo_pessoa": "Código Tipo Pessoa",
+      "nl_data_alteracao": "Data Alteração",
+      "nl_data_cadastro_portal": "Data Cadastro Portal",
+      "nl_data_inclusao": "Data Inclusão",
+      "nl_flag_cadastral_portal": "Flag Cadastral Portal",
+      "nl_flag_origem_carga_inicial": "Flag Origem Carga Inicial",
+      "nl_nome_tratamento": "Nome Tratamento",
+      "nl_primeiro_nome_fonetico": "Primeiro Nome Fonético",
+      "nl_segundo_nome_fonetico": "Segundo Nome Fonético",
+      "nl_terceiro_nome_fonetico": "Terceiro Nome Fonético",
+      "numberofchildren": "Núm. de Filhos",
+      "onholdtime": "Tempo de Suspensão (Minutos)",
+      "opportunity_customer_contacts": "Oportunidades (opportunity_customer_contacts)",
+      "opportunity_parent_contact": "Oportunidades (opportunity_parent_contact)",
+      "order_customer_contacts": "Ordens (order_customer_contacts)",
+      "originatingleadid": "Cliente Potencial Originador",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "pager": "Pager",
+      "parent_contactid": "parent_contactid",
+      "participatesinworkflow": "Participa no Fluxo de Trabalho",
+      "paymenttermscode": "Condições de Pagamento",
+      "preferredappointmentdaycode": "Dia Preferencial",
+      "preferredappointmenttimecode": "Horário Preferencial",
+      "preferredcontactmethodcode": "Forma Preferencial de Contato",
+      "preferredequipmentid": "Instalações/Equipamentos Preferenciais",
+      "preferredserviceid": "Serviço Preferencial",
+      "preferredsystemuserid": "Usuário Preferencial",
+      "processid": "Processo",
+      "quote_customer_contacts": "Cotações (quote_customer_contacts)",
+      "salutation": "Saudação",
+      "servicecontractcontacts_association": "Contratos (servicecontractcontacts_association)",
+      "shippingmethodcode": "Método de Entrega",
+      "sla_contact_sla": "SLA",
+      "slainvokedid_contact_sla": "Último SLA aplicado",
+      "slakpiinstance_contact": "Instâncias do KPI de SLA",
+      "socialactivity_postauthor_contacts": "Atividades Sociais (socialactivity_postauthor_contacts)",
+      "socialactivity_postauthoraccount_contacts": "Atividades Sociais (socialactivity_postauthoraccount_contacts)",
+      "Socialprofile_customer_contacts": "Perfis Sociais",
+      "spousesname": "Nome do Cônjuge/Companheiro(a)",
+      "stageid": "(Preterido) Estágio do Processo",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "suffix": "Sufixo",
+      "teamsfollowed": "TeamsFollowed",
+      "telephone1": "Telefone Comercial",
+      "telephone2": "Telefone Residencial",
+      "telephone3": "Telefone 3",
+      "territorycode": "Região",
+      "timespentbymeonemailandmeetings": "Tempo Gasto por Mim",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "transactioncurrencyid": "Moeda",
+      "traversedpath": "(Preterido) Caminho Percorrido",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão",
+      "websiteurl": "Site",
+      "yomifirstname": "Nome Yomi",
+      "yomifullname": "Nome Completo Yomi",
+      "yomilastname": "Sobrenome Yomi",
+      "yomimiddlename": "Segundo Nome Yomi"
+    },
+    "PreferredName": "Contatos",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Contatos (Views)",
+    "Name": "_contact_views",
+    "RelatedEntityName": "Contatos",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "00000000-0000-0000-00aa-000000666400": "Exibição de Localização Avançada de Contatos",
+      "00000000-0000-0000-00aa-000010001003": "Meus Contatos Ativos",
+      "00000000-0000-0000-00aa-000010001004": "Contatos Ativos",
+      "00000000-0000-0000-00aa-000010001033": "Contatos Inativos",
+      "00000000-0000-0000-00aa-000010001210": "Exibição Associada ao Contato",
+      "0a8fa653-4147-4282-bf6b-168cfa839803": "Contatos: Negociações Influenciadas que Conquistamos",
+      "0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105": "Todos os Contatos",
+      "38962192-31ff-46fc-9ac3-2db0a7d9dc7c": "Campanhas de Contatos Selecionados",
+      "3a282da1-5d90-e011-95ae-00155d9cfa02": "Contatos I Acompanhar",
+      "3a282da1-5d90-e011-95ae-00155d9cfa03": "Contatos Sendo Acompanhados",
+      "4129e27c-d0ce-e811-8158-000d3afd9907": "Membros do segmento",
+      "69103b65-f27e-45ce-a69c-eb1a7c805a45": "Campanhas de Contatos Excluídos",
+      "73bc2d9b-4e0e-424c-8839-ed59d6817e3a": "Ativar Exibição da Subgrade de Contatos",
+      "927e6cd8-b3ed-4c20-a154-b8bd8a86d172": "Contatos: sem Atividade de Campanha nos Últimos 3 Meses",
+      "9c241a33-ca0b-4e50-ae92-db780d5b2a12": "Contatos: Responderam a Campanhas nos Últimos 6 Meses",
+      "a2d479c5-53e3-4c69-addd-802327e67a0d": "Exibição da Consulta de Contatos",
+      "ab582fb0-a846-453e-ad88-77f75ce91264": "Minhas Conexões",
+      "eda26f1e-dbcc-40ad-91f2-ff2878d1d8d8": "Contatos de Direito",
+      "ef26335d-6f4e-e611-80be-0024e8469fb9": "Meus Contatos Ativos por Relacionamento"
+    }
+  },
+  {
+    "DisplayName": "Confirmar Remoção da Senha (Contatos)",
+    "Name": "adx_contact_adx_confirmremovepassword",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_confirmremovepassword",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_confirmremovepassword",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Email Confirmado (Contatos)",
+    "Name": "adx_contact_adx_identity_emailaddress1confirmed",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_identity_emailaddress1confirmed",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_identity_emailaddress1confirmed",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Logon Local Desabilitado (Contatos)",
+    "Name": "adx_contact_adx_identity_locallogindisabled",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_identity_locallogindisabled",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_identity_locallogindisabled",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Bloqueio Habilitado (Contatos)",
+    "Name": "adx_contact_adx_identity_lockoutenabled",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_identity_lockoutenabled",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_identity_lockoutenabled",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Login Habilitado (Contatos)",
+    "Name": "adx_contact_adx_identity_logonenabled",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_identity_logonenabled",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_identity_logonenabled",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Número de Celular Confirmado (Contatos)",
+    "Name": "adx_contact_adx_identity_mobilephoneconfirmed",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_identity_mobilephoneconfirmed",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_identity_mobilephoneconfirmed",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Dois Fatores Habilitado (Contatos)",
+    "Name": "adx_contact_adx_identity_twofactorenabled",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_identity_twofactorenabled",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_identity_twofactorenabled",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Alerta de Perfil (Contatos)",
+    "Name": "adx_contact_adx_profilealert",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_profilealert",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_profilealert",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Perfil É Anônimo (Contatos)",
+    "Name": "adx_profileisanonymous_contact",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_profileisanonymous",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_profileisanonymous",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Função (Contatos)",
+    "Name": "contact_accountrolecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Tomador de Decisão",
+      "2": "Funcionário",
+      "3": "Influenciador"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountrolecode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountrolecode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 1: Tipo de Endereço (Contatos)",
+    "Name": "contact_address1_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Fatura",
+      "2": "Remessa",
+      "3": "Primário",
+      "4": "Outro"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_addresstypecode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_addresstypecode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 1: Condições de Frete (Contatos)",
+    "Name": "contact_address1_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "FOB",
+      "2": "Frete Gratuito"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_freighttermscode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_freighttermscode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 1: Método de Entrega (Contatos)",
+    "Name": "contact_address1_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "17": "Transportadora",
+      "2": "DHL",
+      "23": "SEDEX",
+      "3": "FedEx",
+      "4": "UPS",
+      "5": "Correio Comum",
+      "7": "Cliente Retira no Local"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_shippingmethodcode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 2: Tipo de Endereço (Contatos)",
+    "Name": "contact_address2_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_addresstypecode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_addresstypecode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 2: Condições de Frete (Contatos)",
+    "Name": "contact_address2_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_freighttermscode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_freighttermscode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 2: Método de Entrega (Contatos)",
+    "Name": "contact_address2_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_shippingmethodcode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 3: Tipo de Endereço (Contatos)",
+    "Name": "contact_address3_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address3_addresstypecode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address3_addresstypecode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 3: Condições de Frete (Contatos)",
+    "Name": "contact_address3_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address3_freighttermscode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address3_freighttermscode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Endereço 3: Método de Entrega (Contatos)",
+    "Name": "contact_address3_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address3_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address3_shippingmethodcode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Suspensão de Crédito (Contatos)",
+    "Name": "contact_creditonhold",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "creditonhold",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "creditonhold",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Tamanho do Cliente (Contatos)",
+    "Name": "contact_customersizecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customersizecode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customersizecode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Tipo de Relação (Contatos)",
+    "Name": "contact_customertypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customertypecode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customertypecode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Não permitir Emails em Massa (Contatos)",
+    "Name": "contact_donotbulkemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Permitir",
+      "1": "Não Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkemail",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkemail",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Não permitir Correspondência em Massa (Contatos)",
+    "Name": "contact_donotbulkpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkpostalmail",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkpostalmail",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Não permitir Emails (Contatos)",
+    "Name": "contact_donotemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Permitir",
+      "1": "Não Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotemail",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotemail",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Não permitir Faxes (Contatos)",
+    "Name": "contact_donotfax",
+    "OptionSetInfoNameMapping": {
+      "0": "Permitir",
+      "1": "Não Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotfax",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotfax",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Não permitir Telefonemas (Contatos)",
+    "Name": "contact_donotphone",
+    "OptionSetInfoNameMapping": {
+      "0": "Permitir",
+      "1": "Não Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotphone",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotphone",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Não permitir Correspondência (Contatos)",
+    "Name": "contact_donotpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "Permitir",
+      "1": "Não Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotpostalmail",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotpostalmail",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Enviar Materiais de Marketing (Contatos)",
+    "Name": "contact_donotsendmm",
+    "OptionSetInfoNameMapping": {
+      "0": "Enviar",
+      "1": "Não Enviar"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotsendmm",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotsendmm",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Educação (Contatos)",
+    "Name": "contact_educationcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "educationcode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "educationcode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Estado Civil (Contatos)",
+    "Name": "contact_familystatuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Solteiro",
+      "2": "Casado(a)",
+      "3": "Divorciado(a)",
+      "4": "Viúvo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "familystatuscode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "familystatuscode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Acompanhar Atividade de Email (Contatos)",
+    "Name": "contact_followemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Não Permitir",
+      "1": "Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "followemail",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "followemail",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Sexo (Contatos)",
+    "Name": "contact_gendercode",
+    "OptionSetInfoNameMapping": {
+      "1": "Masculino",
+      "2": "Feminino"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "gendercode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "gendercode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Tem Filhos (Contatos)",
+    "Name": "contact_haschildrencode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "haschildrencode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "haschildrencode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Criado automaticamente (Contatos)",
+    "Name": "contact_isautocreate",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isautocreate",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isautocreate",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Cliente de Back-Office (Contatos)",
+    "Name": "contact_isbackofficecustomer",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isbackofficecustomer",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isbackofficecustomer",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "IsPrivate (Contatos)",
+    "Name": "contact_isprivate",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isprivate",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isprivate",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Origem do Cliente Potencial (Contatos)",
+    "Name": "contact_leadsourcecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "leadsourcecode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "leadsourcecode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Somente Marketing (Contatos)",
+    "Name": "contact_marketingonly",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "marketingonly",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "marketingonly",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Mesclado (Contatos)",
+    "Name": "contact_merged",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "merged",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "merged",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Sinalizador Fora da Empresa (Contatos)",
+    "Name": "contact_msdyn_orgchangestatus",
+    "OptionSetInfoNameMapping": {
+      "0": "Sem Comentários",
+      "1": "Fora da Empresa",
+      "2": "Ignorar"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msdyn_orgchangestatus",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "msdyn_orgchangestatus",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Participa no Fluxo de Trabalho (Contatos)",
+    "Name": "contact_participatesinworkflow",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "participatesinworkflow",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "participatesinworkflow",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Condições de Pagamento (Contatos)",
+    "Name": "contact_paymenttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Vencimento em 30 dias",
+      "10": "À Vista",
+      "3": "Vencimento em 45 dias",
+      "4": "Vencimento em 60 dias"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "paymenttermscode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "paymenttermscode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Dia Preferencial (Contatos)",
+    "Name": "contact_preferredappointmentdaycode",
+    "OptionSetInfoNameMapping": {
+      "0": "Domingo",
+      "1": "Segunda-feira",
+      "2": "Terça-feira",
+      "3": "Quarta-feira",
+      "4": "Quinta-feira",
+      "5": "Sexta-feira",
+      "6": "Sábado"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmentdaycode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmentdaycode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Horário Preferencial (Contatos)",
+    "Name": "contact_preferredappointmenttimecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Manhã",
+      "2": "Tarde",
+      "3": "Noite"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmenttimecode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmenttimecode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Forma Preferencial de Contato (Contatos)",
+    "Name": "contact_preferredcontactmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Qualquer uma",
+      "2": "Email",
+      "3": "Telefone",
+      "4": "Fax",
+      "5": "Correio"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredcontactmethodcode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredcontactmethodcode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Método de Entrega (Contatos)",
+    "Name": "contact_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "shippingmethodcode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "shippingmethodcode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Contatos)",
+    "Name": "contact_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativa",
+      "1": "Inativa"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Contatos)",
+    "Name": "contact_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativa",
+      "2": "Inativa"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Região (Contatos)",
+    "Name": "contact_territorycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Valor Padrão"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "territorycode",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "territorycode",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Desabilitar Rastreamento Web (Contatos)",
+    "Name": "msdyn_contact_msdyn_disablewebtracking",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msdyn_disablewebtracking",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "msdyn_disablewebtracking",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Recusa do RGPD (Contatos)",
+    "Name": "msdyn_contact_msdyn_gdproptout",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msdyn_gdproptout",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "msdyn_gdproptout",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "É Menor (Contatos)",
+    "Name": "msdyn_contact_msdyn_isminor",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msdyn_isminor",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "msdyn_isminor",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "É Menor com Consentimento dos Pais (Contatos)",
+    "Name": "msdyn_contact_msdyn_isminorwithparentalconsent",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msdyn_isminorwithparentalconsent",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "msdyn_isminorwithparentalconsent",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Lembrar de mim (Contatos)",
+    "Name": "msdyncrm_contact_msdyncrm_rememberme",
+    "OptionSetInfoNameMapping": {
+      "0": "Não permitir",
+      "1": "Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msdyncrm_rememberme",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "msdyncrm_rememberme",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Não rastrear (Contatos)",
+    "Name": "msgdpr_contact_msgdpr_donottrack",
+    "OptionSetInfoNameMapping": {
+      "0": "Permitir",
+      "1": "Não Permitir"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msgdpr_donottrack",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "msgdpr_donottrack",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "O RGPD é secundário (Contatos)",
+    "Name": "msgdpr_contact_msgdpr_gdprischild",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msgdpr_gdprischild",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "msgdpr_gdprischild",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Consentimento",
+    "Name": "msgdpr_gdpr_consent_option_set",
+    "OptionSetInfoNameMapping": {
+      "587030001": "(1) Consentimento",
+      "587030002": "(2) Transacional",
+      "587030003": "(3) Assinaturas",
+      "587030004": "(4) Marketing",
+      "587030005": "(5) Criação de perfil"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msgdpr_gdprconsent",
+        "OptionSetReferenceEntityName": "Contatos"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "msgdpr_gdprconsent",
+    "RelatedEntityName": "Contatos",
+    "Type": "OptionSetInfo"
+  }
+]

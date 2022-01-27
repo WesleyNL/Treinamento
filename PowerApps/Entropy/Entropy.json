@@ -5,14 +5,14 @@
     "Gallery1": 4,
     "galleryTemplate1": 5,
     "Image1": 6,
-    "NextArrow1": 9,
+    "NextArrow1": 8,
     "Screen1": 3,
     "Separator1": 10,
-    "Subtitle1": 8,
+    "Subtitle1": 9,
     "Title1": 7
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/27/2022 01:51:13",
+  "HeaderLastSavedDateTimeUTC": "01/27/2022 01:53:08",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -106,11 +106,17 @@
   },
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0370591,
+    "AnalysisLoadTime": 0.1516717,
     "ControlCount": {
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "icon": 1,
+      "image": 1,
+      "label": 2,
+      "rectangle": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.4488439,
+    "DeserializationLoadTime": 1.6420065,
     "ErrorCount": 0
   }
 }

@@ -6,7 +6,7 @@ Screen1 As screen:
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
-        Y: =40
+        Y: =246
         ZIndex: =1
 
         Image1 As image:
@@ -68,4 +68,13 @@ Screen1 As screen:
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
+
+    Label1 As label:
+        Height: =70
+        Size: =21
+        Text: ="Lista"
+        Width: =560
+        X: =80
+        Y: =63
+        ZIndex: =2
 

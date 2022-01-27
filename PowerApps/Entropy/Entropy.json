@@ -12,7 +12,7 @@
     "Title1": 7
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/27/2022 01:49:20",
+  "HeaderLastSavedDateTimeUTC": "01/27/2022 01:51:13",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -93,13 +93,13 @@
   "PublishOrderIndices": {
     "App": 0,
     "Gallery1": 0,
-    "galleryTemplate1": 0,
-    "Image1": 0,
-    "NextArrow1": 0,
+    "galleryTemplate1": 1,
+    "Image1": 2,
+    "NextArrow1": 4,
     "Screen1": 0,
-    "Separator1": 0,
-    "Subtitle1": 0,
-    "Title1": 0
+    "Separator1": 6,
+    "Subtitle1": 5,
+    "Title1": 3
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
